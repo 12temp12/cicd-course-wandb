@@ -14,4 +14,4 @@ jobs:
           with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
             print(f"VAL=true", file=f)
       - name: Print stored value
-        run: echo "Reading stored value: ${{ steps.set-var.outputs.VAL }}"
+        run: echo "Reading stored value, which is ${{ steps.set-var.outputs.VAL }}"
