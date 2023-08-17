@@ -10,5 +10,5 @@ jobs:
         run: echo "🎉 Hello world"
       - name: run python script
         run: |
-          pip install -r requireements.txt
+          pip install -r requirements.txt
           python ci.py
